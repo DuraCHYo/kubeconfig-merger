@@ -6,8 +6,6 @@ kubeconfig_files = os.listdir()
 
 if 'config-merger.py' in kubeconfig_files:
     kubeconfig_files.remove('config-merger.py')
-if 'template.yml' in kubeconfig_files:
-    kubeconfig_files.remove('template.yml')
 
 
 def get_kubeconfigs():
